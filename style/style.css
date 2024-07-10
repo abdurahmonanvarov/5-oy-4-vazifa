@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans';
+}
+.continer{
+    max-width: 1220px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 229px;
+}
+.header a img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+}
+.header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header nav ul li, a{
+    color: #2B2B2B;
+    font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.5s;
+}
+.header nav ul li, a:hover{
+    color: #5e5959;
+}
+.header #button, #button2{
+    padding: 11px 15px;
+    background: #423F3E;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.5s;
+}
+.header #button:hover, #button2:hover{
+    background-color: #5e5959;
+}
+.cover{
+    margin-bottom: 331px;
+    text-align: center;
+}
+.cover h1{
+    width: 960px;
+    font-size: 64px;
+    line-height: 78.4px;
+    color: #2B2B2B;
+    padding-bottom: 31px;
+    text-align: center;
+    margin-left: 110px;
+}
+.cover p{
+    width: 960px;
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 110px;
+}
+.main{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .info h2{
+    font-weight: 700;
+    color: #2B2B2B;
+    width: 600px;
+    margin-bottom: 60px;
+    font-size: 53px;
+}
+.info .cover__info__malumot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cover__info__malumot .info__malumot{
+    width: 266px;
+}
+.cover__info__malumot .info__malumot p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2B2B2B;
+}
+.cover__info__malumot .info__malumot .info__malumot__infos{
+    display: flex;
+    align-self: center;
+    gap: 10px;
+}
+.cover__info__malumot .info__malumot .info__malumot__infos a{
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 18px;
+}
+.cover__info__malumot .info__malumot .info__malumot__infos img{
+    width: 14px;
+    height: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.main img{
+    width: 534px;
+    height: 534px;
+}
+.abouts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+.abouts .about__info{
+    width: 508.28px;
+}
+.abouts .about__info h2{
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+.abouts .about__info p{
+    color: #2B2B2B;
+    font-size: 18px;
+    line-height: 28px;
+}
+.abouts .about__secont__info{
+    width: 428px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+}
+.abouts .about__secont__info .about__cover__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.abouts .about__secont__info .kkk{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.abouts .about__secont__info h4{
+    width: 220px;
+    height: 42px;
+    color: #2B2B2B;
+    font-size: 31px;
+}
+.contacts__cover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 81px;
+
+}
+.contacts__cover, .cover__image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 59.92px;
+}
+.contacts__cover .contavt__info{
+    width: 272.19px;
+}
+.contacts__cover .contavt__info h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B2B2B;
+    margin-bottom: 20px;
+}
+.contacts__cover .contavt__info p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #2B2B2B;
+}
+
+.contacts__cover .cover__image img{
+    width: 240px;
+    height: 214px;
+}
+.information{
+    text-align: center;
+    font-size: 53px;
+    font-weight: 700;
+    margin-bottom: 81px;
+}
+.malumotlar{
+    margin-bottom: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 95px;
+    padding: 0px 120px;  
+}
+.malumotlar .malumotlat__infos{
+    width: 433px;
+    border-radius: 5px;
+    background-color: #EBEBEB;
+    box-shadow: 0px 0px 40px #3928A626;
+    padding: 60px 13px 28px 60px;
+}
+.malumotlar .malumotlat__infos p{
+    font-size: 18px;
+    color: #2B2B2B;
+    font-weight: 600;
+    width: 360px;
+    margin-bottom: 20px;
+}
+.malumotlar .malumotlat__infos h6{
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 18px;
+}
+.malumotlar .malumotlat__infos span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2B2B;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+.footer img{
+    width: 100px;
+    height: 116px;
+    border-radius: 150%;
+}
+.footer .footer__info p{
+ text-align: center;
+ color: #2B2B2B;
+ font-weight: 600;
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+.footer .coover__icon{
+  width: 141px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.footer .coover__icon img{
+    height: 25px;
+    width: 21px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+.footer .footer__info .span__cow{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #2B2B2B;
+    font-weight: 600;
+}
